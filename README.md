@@ -7,6 +7,7 @@
 <br>The nsvram/docker_postgis give you the Docker container for running postgres 9.6 with postgis installed. The postgres is extracted on the officical postgres docker image. 
 
 <br><b>How to download and setup the postgres docker from git?
+<br>
 git clone https://github.com/nsvram/docker_postgis.git
 cd docker_postgis
 
