@@ -16,8 +16,7 @@ docker build -t nsvram-postgres/latest .
 Run the docker from the image built in the previous step:
 docker run -d -p 5432:5432 --name nsvram-postgres -v  /home/vsampat/venkat/:/var/lib/postgresql nsvram-postgres/latest
 
-
-**Step inside the docker container:**
+**Step inside the docker container**
 docker ps 
 	- will list the running containers and you should see the venkat_postgres
 docker exec 
